@@ -12,13 +12,17 @@ var config = {
     serverDocRoot : "mh",
     
     // Database Server config
-    dbConnector: "mySqlDbConnector",
+    dbConnector: "influxDbConnector",
+
+    // MySQL specific config
     dbServer   : "server-mh.fritz.box",
     dbUser     : 'pi',
     dbPassword : 'XXX',
     database   : 'mh',
 
-
+    // InfluxDB specific config
+    influxServerUrl: "http://influxdb:8086",
+    influxDatabase: "am2h-home",
     
     // Geographic config
     longitude     : 9.070314,

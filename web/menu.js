@@ -5,8 +5,8 @@
  */
 
 var menu = {
-    default: {name:"Temperaturen",df:"dfmh.js",css:"dfmh.css"},
-    heizung: {name:"Heizung",df:"dfmh_1.js",css:"dfmh.css"}
+    default: {name:"Temperaturen",df:"df/dfmh.js",css:"df/dfmh.css"},
+    heizung: {name:"Heizung",df:"df/dfmh_1.js",css:"df/dfmh.css"}
     };
     
 module.exports = menu;

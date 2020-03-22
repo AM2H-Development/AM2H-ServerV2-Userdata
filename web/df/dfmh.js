@@ -38,15 +38,4 @@ function initFields(){
         .inp("mh/event/timer/seconds:formattedMessage","width: 300px; left:  10px; top: 320px;")
 
         .start();
-
-    const d = new Diagram("#myChart","#dia")
-            .duration("1 Stunde",{'days' : 1})
-            .duration("1 Woche",{'weeks' : 1})
-            .graph("Sekunden","mh/event/timer/seconds","")
-            .graph("Minuten 1","mh/event/timer/minutes","")
-            .graph("Minuten 2","mh/event/timer/minutes","")
-            .graph("Minuten 3","mh/event/timer/minutes","")
-            .graph("Minuten 4","mh/event/timer/minutes","")
-        
-            .start();
 }
