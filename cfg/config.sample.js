@@ -25,6 +25,6 @@ var config = {
     latitude      : 49.080864,
     
     // Logger config
-    loggerRoot : "."
+    loggerRoot : "." // not used anymore
 };
 module.exports = config;
