@@ -12,10 +12,13 @@ var config = {
     serverDocRoot : "mh",
     
     // Database Server config
-    dbServer   : "mqtt://server-mh.fritz.box",
+    dbConnector: "mySqlDbConnector",
+    dbServer   : "server-mh.fritz.box",
     dbUser     : 'pi',
     dbPassword : 'XXX',
     database   : 'mh',
+
+
     
     // Geographic config
     longitude     : 9.070314,
